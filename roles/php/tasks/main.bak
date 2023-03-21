@@ -1,0 +1,11 @@
+- name: Install PHP Remi Repository
+  yum: name=https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm update_cache=yes state=latest
+ 
+- name: Enable PHP Remi Repository
+  command: dnf module reset php
+  command: dnf module install php:remi-8.0
+  command: dnf install php
+ 
+- name: Install PHP Extensions
+  yum: name={{ item }} update_cache=yes state=latest
+  loop: "{{ php_modules }}"

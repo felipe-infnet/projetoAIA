@@ -1,0 +1,13 @@
+#PHP ajustes
+php_modules: [ 'php', 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+ 
+#MySQL ajustes
+mysql_root_password: "password1982"
+mysql_db: "wpdb"
+mysql_user: "wpuser"
+mysql_password: "password1982"
+ 
+#HTTP FQDN e porta
+http_host: "wp.infnet.com"
+http_conf: "wp.infnet.com.conf"
+http_port: "80"

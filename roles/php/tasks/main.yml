@@ -1,0 +1,17 @@
+  - name: Installing Remi Repository
+    yum: name=https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+    state: present
+
+  - name: Installing php
+    yum:
+    enablerepo: "remi,remi-php80" #Valor da extensao
+    name:
+    - php
+    - php-common
+    - php-cli
+    - php-gd
+    - php-curl #as extensoes podem ser manobradas
+    - php-mysqlnd
+    - php-fpm
+    - php-mysqli
+    state: latest
