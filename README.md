@@ -5,3 +5,4 @@ O projeto é público e será usado como exemplo para a graduação de Gestão e
 Instalação automatizada do Wordpress via ansible
 Primeiro pull! Agora Online!
 Validacao de push online
+Validacao de pull online
