@@ -6,3 +6,4 @@ Instalação automatizada do Wordpress via ansible
 Primeiro pull! Agora Online!
 Validacao de push online
 Validacao de pull online
+pull pull pullpull pull pullpull pull pullpull pull pullpull pull pullpull pull pullpull pull pullpull pull pullpull pull pull
